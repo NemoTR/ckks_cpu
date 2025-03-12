@@ -1,4 +1,4 @@
-add_executable(demo main.cpp)
-target_link_libraries(demo ckks_cpu)
+add_executable(ckks_cpu_demo ckks_cpu_demo.cpp)
+target_link_libraries(ckks_cpu_demo ckks_cpu)
 
-install(TARGETS demo DESTINATION bin)
+install(TARGETS ckks_cpu_demo DESTINATION bin)
